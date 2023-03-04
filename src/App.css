@@ -13,7 +13,7 @@ body {
 
 .external-grid {
   display: grid;
-  margin-top: 0em;
+  margin-top: 1em;
   justify-content: center;
   grid-template-columns: auto auto auto;
 }
