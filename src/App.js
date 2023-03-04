@@ -101,8 +101,9 @@ function factorial(num) {
     return undefined;
   }
   let to_return = 1
-  for (let i=num; i--; ) {
+  for (let i=num+1; --i; i>0) {
     to_return *= i;
+    console.log(to_return);
   }
   return to_return
 }
